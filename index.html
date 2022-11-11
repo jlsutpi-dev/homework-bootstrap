@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Bootstrap</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+      body{
+        height: 3000px;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <div class="card m-3" style="width: 18rem;">
+      <div>
+          <img src="./img/images.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Phway Phway</h5>
+          <p class="card-text text-black-50 my-3">Phway won her first Myanmar Academy Award in 2012 with the film Let Pan, achieved her second award in 2015 with the film I'm Rose, Darling and third award in 2018 with the film Shwe Kyar. All films were directed by four-time Myanmar Academy Award winner Wyne.</p>
+          <a href="#" class="btn btn-primary ">READ MORE</a>
+          <a href="#" class="btn btn-primary ">Follow me</a>
+        </div>
+      </div>
+
+      <div class="float-start m-3 border border-primary border-3">
+        Float start on all viewport sizes
+      </div>
+      <br>
+      <div class="float-end border border-warning border-4 m-0">
+        Float end on all viewport sizes
+      </div>
+      <br>
+      <div class="float-none m-3 border border-info border-2">
+        Don't float on all viewport sizes
+      </div>
+
+      <p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+      <p class="user-select-auto">This paragraph has default select behavior.</p>
+      <p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
+
+      <p class="m-4">
+        <a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a>
+         can not be clicked.
+        </p>
+    <p class="m-4">
+      <a href="#" class="pe-auto">This link</a>
+       can be clicked (this is default behavior).
+      </p>
+    <p class="pe-none m-4">
+      <a href="#" tabindex="-1" aria-disabled="true">This link</a>
+       can not be clicked because the <code>pointer-events</code> property is inherited from its parent. However,
+        <a href="#" class="pe-auto">this link</a>
+         has a <code>pe-auto</code> class and can be clicked.
+     </p>
+
+     <p class="pe-none">
+       <a href="https://mms-it.com" tabindex="-1" aria-disabled="true">btn</a> can't be click because we gave <code> pe-none </code>to its parent. However, 
+       <a href="https://mms-it.com" class="pe-auto" target="_blank">btn</a> can be click 
+     </p>
+
+     <p class="m-5">
+      My name is <code>Nang Sian Sut</code> and 19 years old.
+     </p>
+
+     <div class="d-flex">
+      <div class="p-2 flex-fill border border-2 border-secondary">Flex item with a lot of content</div>
+      <div class="p-2 flex-fill">Flex item</div>
+      <div class="p-2 flex-fill">Flex item</div>
+    </div>    
+</body>
+</html>
